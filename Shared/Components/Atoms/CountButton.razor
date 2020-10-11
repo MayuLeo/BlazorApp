@@ -1,0 +1,6 @@
+<button type="button" @onclick="OnIncrementCount">カウントアップ</button>
+
+@code {
+  [Parameter]
+  public EventCallback<MouseEventArgs> OnIncrementCount { get; set; }
+}
