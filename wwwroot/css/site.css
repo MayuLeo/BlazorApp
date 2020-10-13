@@ -1,6 +1,25 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-html, body {
+header {
+    height: 70px; 
+    text-align: center; 
+}
+
+.titleText {
+  display: block;
+}
+
+.titleTextTop {
+    font-size: 36px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+.titleTextBottom {
+  font-size: 30px;
+  color: dimgrey;
+}
+
+/* html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -132,4 +151,4 @@ app {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
-}
+} */
