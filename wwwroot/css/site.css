@@ -1,7 +1,12 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+body {
+    width: 100%;
+}
+
 header {
     height: 70px; 
+    margin: 40pt 0pt;
     text-align: center; 
 }
 
